@@ -4,21 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <title>Document</title>
 </head>
 <body>
-  <img src="src/imagens/giphy.gif" alt="">
-  <h1>Clima</h1>
-
-  
-    <label for="name">Nome da Ciadade</label>
-    <input id="name"><br>
+  <div class="container">
+    <h1>CLIMA BR</h1>
+  <div class="box">
+    <label for="name">CIDADE</label>
+    <i class="fa-solid fa-location-dot"></i>
+    <input id="name"><br><br>
     <button onclick="ClimaTemp()">CLIQUE</button>
     <br>
-    <label for="temp">Clima</label>
-    <input id="temp"><br>
     <br>
+    <label for="temp">TEMP</label>
+    <i class="fa-solid fa-temperature-high"></i>
+    <input id="temp"><br><br>
     <button onclick="ClimaTemp()">CLIQUE</button>
+  </div>
+  </div>
   <script src="./src/javascript/climaGet.js"></script>
 </body>
 </html>
