@@ -42,12 +42,12 @@ button{
 
 }
 #temp{
-  font-size: 200%;
+  font-size: 90%;
   border: none;
   background-color: #f8f4f4;
   display: flex;
   justify-content: center;
   margin-left: 35%;
-  width: 30%;
+  width: 20%;
 }
 
